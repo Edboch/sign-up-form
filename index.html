@@ -7,57 +7,63 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="hero-section">
-        <div class="site-logo">
-            <img src="img/odin-lined.png" alt="Odin Logo" id="odin-logo">
-            <h1>Duck Appreciation</h1>
+    <div class="container">
+        <div class="hero-section">
+            <div class="site-logo">
+                <img src="img/odin-lined.png" alt="Odin Logo" id="odin-logo">
+                <h1>Duck Appreciation</h1>
+            </div>
+            <p class="image-credit">
+                Photo by <a href="https://unsplash.com/@baciutudor?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tudor Baciu</a> on <a href="https://unsplash.com/photos/a-duck-floating-on-top-of-a-body-of-water-qb6e5y29dyc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </p>
         </div>
-        <img src="img/duck-tudor-baciu-unsplash.jpg" alt="Duck by Tudor Baciu" id="hero-image">
-        <p class="image-credit">
-            Photo by <a href="https://unsplash.com/@baciutudor?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tudor Baciu</a> on <a href="https://unsplash.com/photos/a-duck-floating-on-top-of-a-body-of-water-qb6e5y29dyc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-        </p>
+        <div class="content">
+            <div class="register-form">
+                <p class="intro-text">This is not a real online service! Join the community of duck fans, sharing and viewing posts made by people all around. Start your day off with a quack!</p>
+                <p class="intro-text">Register your interest here. 🦆 🦆 🦆 🦆 🦆</p>
+                
+                <form action="#" method="GET">
+                    <fieldset>
+                        <p class="intro-text">Let's do this!</p>
+                        <div class="form-row">
+                            <div class="form-item">
+                                <label for="first-name">FIRST NAME</label>
+                                <input type="text" id="first-name" name="firstname" >
+                            </div>
+                            <div class="form-item">
+                                <label for="last-name">LAST NAME</label>
+                                <input type="text" id="last-name" name="lastname" >
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-item">
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email" name="email" >
+                            </div>
+                            <div class="form-item">
+                                <label for="phone-number">PHONE NUMBER</label>
+                                <input type="tel" id="phone-number" name="phone" >
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-item">
+                                <label for="password">PASSWORD <span aria-label="required">*</span></label>
+                                <input type="password" id="password" name="password" required>
+                            </div>
+                            <div class="form-item">
+                                <label for="confirm-password">CONFIRM PASSWORD <span aria-label="required">*</span></label>
+                                <input type="password" id="confirm-password" name="confirmPassword" required>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="form-buttons">
+                        <button type="submit">CREATE ACCOUNT</button>
+                        <p>Already have an account? <a href="#" class="login-link">Log in</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
     </div>
-    <div class="content">
-        <div class="intro-text">
-            <p>This is not a real online service! Sign up here to show your support for ducks and see more photos posted by the community!</p>
-            <p>🦆 🦆 🦆 🦆 🦆</p>
-        </div>
-        <div class="register-form">
-            <form action="#" method="GET">
-                <fieldset>
-                    <legend>Sign up here!</legend>
-                    <div class="form-group">
-                        <label for="first-name">FIRST NAME</label>
-                        <input type="text" id="first-name" name="firstname" >
-                    </div>
-                    <div class="form-group">
-                        <label for="last-name">LAST NAME</label>
-                        <input type="text" id="last-name" name="lastname" >
-                    </div>
-                    <div class="form-group">
-                        <label for="email">EMAIL</label>
-                        <input type="email" id="email" name="email" >
-                    </div>
-                    <div class="form-group">
-                        <label for="phone-number">PHONE NUMBER</label>
-                        <input type="tel" id="phone-number" name="phone" >
-                    </div>
-                    <div class="form-group">
-                        <label for="password">PASSWORD</label>
-                        <input type="password" id="password" name="password" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="confirm-password">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm-password" name="confirmPassword" required>
-                    </div>
-                </fieldset>
-                <div class="form-buttons">
-                    <button type="submit">CREATE ACCOUNT</button>
-                    <p>Already have an account? <a href="#" class="login-link">Log in</a></p>
-                </div>
-            </form>
-        </div>
-    </div>
-    
 </body>
 </html>
